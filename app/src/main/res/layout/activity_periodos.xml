@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:forceDarkAllowed="true"
+    android:background="@color/roxoEscuro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:paddingBottom="16dp"
+        tools:ignore="NotSibling">
+
+        <View
+            android:id="@+id/ellipse_2"
+            android:layout_width="97dp"
+            android:layout_height="79dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ellipse_2"
+            />
+
+        <View
+            android:id="@+id/ellipse_3"
+            android:layout_width="92dp"
+            android:layout_height="91dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ellipse_3"
+            />
+
+        <View
+            android:id="@+id/ellipse_4"
+            android:layout_width="59dp"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ellipse_4"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            />
+
+        <View
+            android:id="@+id/ellipse_5"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/ellipse_5"
+            />
+
+
+        <ImageView
+            android:layout_width="82.78dp"
+            android:layout_height="64.2dp"
+            android:id="@+id/logoLogin_semescrita"
+            android:background="@drawable/ic_logo_semescrita_dois"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/pesquisa_dduPeriodo"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_search_icon"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/pesquisa_dduPeriodo"
+            android:paddingTop="50dp">
+
+            <TextView
+                android:id="@+id/textSugestoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sugestões"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginStart="16dp"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/periodosRecycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"/>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

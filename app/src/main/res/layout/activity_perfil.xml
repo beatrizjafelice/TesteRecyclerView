@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/roxoEscuro">
+
+
+    <RelativeLayout
+        android:id="@+id/realPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rel02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_perfil_um"
+            android:paddingBottom="5dp">
+
+            <View
+                android:id="@+id/ellipse_2"
+                android:layout_width="87dp"
+                android:layout_height="69dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ellipse_2"
+                />
+
+            <View
+                android:id="@+id/ellipse_3"
+                android:layout_width="82dp"
+                android:layout_height="81dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/ellipse_3"
+                />
+
+            <View
+                android:id="@+id/ellipse_4"
+                android:layout_width="49dp"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/ellipse_4"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                />
+
+            <View
+                android:id="@+id/ellipse_5"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/ellipse_5"
+                />
+
+
+            <ImageView
+                android:layout_width="72.78dp"
+                android:layout_height="54.2dp"
+                android:id="@+id/logoLogin_semescrita"
+                android:background="@drawable/ic_logo_semescrita_dois"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="5dp"
+                />
+
+            <ImageView
+                android:id="@+id/pesquisa_dduPerfil"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_configuracoes"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"/>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rel02"
+            android:background="@drawable/rectangle_1"
+            android:paddingTop="45dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomeUsuarioPerfl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:text="Nome Completo"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="23dp" />
+
+            <TextView
+                android:id="@+id/cursoUsuarioPerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="15dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="Cursando Bacharelado em CT" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/perfilRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"/>
+
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgPerfilBorda"
+            android:layout_width="200dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/podcast_fundodois"
+            android:layout_marginTop="120dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgPerfilFoto"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="125dp"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

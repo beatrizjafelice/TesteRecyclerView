@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!--    <color name="colorPrimary">#7ed3cf</color>-->
+    <color name="colorPrimary">#ce70f9</color>
+    <!-- <color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#312060</color>
+    <color name="colorAccent">#ce70f9</color>
+    <!-- <color name="colorAccent">#FF4081</color> -->
+    <color name="corNova">#FFFFE6</color>
+    <!--<color name="corNova">#f7e6ad</color> -->
+
+    <color name="cinza">#a6a2a2</color>
+    <color name="cinzaClaro">#ccc8c8</color>
+
+    <!-- cores poscast activity-->
+    <color name="colorDark">#181A24</color>
+    <color name="colorPri">#262938</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparenteWhite">#cccccc</color>
+
+    <!-- cores poscast activity-->
+    <color name="colorText">#050505</color>
+
+    <!-- cores popup -->
+    <color name="blueDark">#2f333f</color>
+    <color name="green">#ADD2EB</color>
+    <color name="roxo">#8458b3</color>
+
+    <!-- cores interações posts -->
+
+    <!-- cores para transparência podcast -->
+    <color name="fundoTransparente">#38000000</color>
+
+
+    <!-- Background Login -->
+    <color name="teal_200">#ce70f9</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="back1">#312561</color>
+    <color name="back2">#3E2F7A</color>
+    <color name="back4">#4B3994</color>
+    <color name="corTexto">#FFF</color>
+
+    <!-- Cores paleta -->
+    <color name="lilas">#823E90</color>
+    <color name="rosaNeon">#CE4DA6</color>
+    <color name="rosaMagenta">#C1539A</color>
+    <color name="roxoClaro">#A58BC0</color>
+    <color name="roxoAcinzentado">#D778FF</color>
+    <color name="roxoEscuro">#312560</color>
+    <color name="roxoMedio">#5440A6</color>
+    <color name="vermelhoAlaranjado">#EA4F3B</color>
+    <color name="begeRosado">#F4A2A2</color>
+
+</resources>
